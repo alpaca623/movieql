@@ -1,6 +1,12 @@
-const resolvers = {
+const alpaca = {
+    name:"alpaca",
+    age:'99',
+    gender:'not'
+}
+
+const resolvers = { 
     Query : {
-        name : () => "alpaca"
+        person : () => alpaca
     }
 }
 

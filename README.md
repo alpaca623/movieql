@@ -7,4 +7,8 @@ Movie API with graphql and NomadCoder lesson
     * 요청받은 데이터를 이해하고 돌려줄 때 응답하는 객체가 resolver. 요청할 때 name을 요청하면 resolver에 있는 name에 해당하는 값이 불러와진다.
 
 # 5 Extending the Schema
-*
+* schema와 resolver의 차이를 잘 이해해야 한다..
+    * schema는 요청하는 형식에 대한 정의이다.
+    * resolver는 응답하는 객체다.
+    * schema는 요청하는 frontend.
+    * resolver는 요청을 받는 DB, 서버의 역할을 한다.

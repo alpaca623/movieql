@@ -56,3 +56,4 @@ Movie API with graphql and NomadCoder lesson
 * 선택적으로 데이터를 가져올 수 있는건 정말 큰 이득인듯!
 * [참고]여기서 DB에서 리턴시키는 함수의 첫번째 인자는 event 객체이고, 두번째 인자는 argument인데 객체로 받는다.
 * 의외로 어렵진 않다.. 역시 배우는게 최고 이득이다.
+

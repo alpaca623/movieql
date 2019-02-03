@@ -50,3 +50,9 @@ Movie API with graphql and NomadCoder lesson
 # 11 REST API with GraphQL Part One
 * node-fetch를 추가하고 기존의 movie 코드를 제거하였다.
 * 영화 API를 제공하는 사이트에서 데이터를 받아 그 데이터를 이용해 graphql을 이용한 API를 만들 예정이다.
+
+# 12 Wrapping a REST API with GraphQL Part Two
+* REST API를 이용해 받은 영화 데이터들을 graphQL로 감싸서 다시 리턴을 시켰다.
+* 선택적으로 데이터를 가져올 수 있는건 정말 큰 이득인듯!
+* [참고]여기서 DB에서 리턴시키는 함수의 첫번째 인자는 event 객체이고, 두번째 인자는 argument인데 객체로 받는다.
+* 의외로 어렵진 않다.. 역시 배우는게 최고 이득이다.

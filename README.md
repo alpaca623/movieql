@@ -32,3 +32,10 @@ Movie API with graphql and NomadCoder lesson
     * schema와 resolver에 대해서 좀 더 반복적인 공부를 해야할거 같다.
     * schema 먼저 정의를 하고, resolver를 정의하고, db에서 함수를 정의하는 순서로 가면 편할듯.
         * 설계만 잘 되어있으면 문제는 없겠다.
+
+# 8 Defining Mutations
+* db를 movie로 바꾸고, Mutation의 기본을 알려줌
+    * 금방 넘어감..
+
+# 9 Creating first Mutation
+* 

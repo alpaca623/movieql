@@ -1,14 +1,14 @@
 let movies = [
     {
-        id:"0",
+        id:0,
         name:"Star wars",
         score:"4"
     },{
-        id:"1",
+        id:1,
         name:"Avengers 3 - Infinity war",
         score:"2"
     },{
-        id:"2",
+        id:2,
         name:"The gotFather",
         score:"1"
     }
@@ -17,14 +17,14 @@ let movies = [
 export const getMovies = () => movies;
 
 export const getById = id => {
-    const filteredMovies = Movies.filter(person => person.id === String(id));
+    const filteredMovies = Movies.filter(person => person.id === id);
     return filteredMovies[0];
 }
 
 export const deleteMovie = id => {
-    const cleanedMovies = movies.filter(movie => movie.id !== String(id));
+    const cleanedMovies = movies.filter(movie => movie.id !== id);
     if(movies.length > cleanedMovies.length){
-        movie = cleanedMovies;
+        movies = cleanedMovies;
         return true;
     }else{
         return false;

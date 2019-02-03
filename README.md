@@ -42,4 +42,7 @@ Movie API with graphql and NomadCoder lesson
     * schema는 graphql에 있는 데이터를 가져오기 위한 형식을 정의하는 것. 특정 조건에 맞게 요청할때와 전체를 요청할때를 구분한다.
     * resolver는 요청한 내용을 실행시키고 db(or api)와 연결시켜서 실제 실행시키고 return값을 돌려준다.
     * db에서는 실제 데이터와 연산(함수)를 정의해놓는다.
-    
+
+# 10 Delete Mutation
+* 영화 삭제함.
+    * very easy..

@@ -38,4 +38,8 @@ Movie API with graphql and NomadCoder lesson
     * 금방 넘어감..
 
 # 9 Creating first Mutation
-* 
+* 이 강의를 들으면서 3박자를 느꼈다. schema, resolver, db 결국은 이 3개의 반복이다.
+    * schema는 graphql에 있는 데이터를 가져오기 위한 형식을 정의하는 것. 특정 조건에 맞게 요청할때와 전체를 요청할때를 구분한다.
+    * resolver는 요청한 내용을 실행시키고 db(or api)와 연결시켜서 실제 실행시키고 return값을 돌려준다.
+    * db에서는 실제 데이터와 연산(함수)를 정의해놓는다.
+    

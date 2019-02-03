@@ -23,4 +23,12 @@ Movie API with graphql and NomadCoder lesson
     * resolver의 내용을 좀 더 심화함 -> 샘플데이터를 더 만들고, schema에서 query 형식을 어떻게 변화시켜야하는지 알아봄.
     * 전체데이터를 받아오게 하려면(배열의 경우) ```people : [people]!``` 이와 같은 형식으로 해야함.
     * `!`는 필수로 넣어줘야한다는 것을 표시한 것
-    
+
+
+# 7 Creating Queries with Arguments
+* 결국엔 어떤 일이 일어나는지에 대한 설명을 만들어내는것이 핵심!
+    * 문슨 일이 벌어지는지 설명하고 그것을 실행한다.
+    * Resolvers는 API가 될수도 있고, DB가 될수도 있다.
+    * schema와 resolver에 대해서 좀 더 반복적인 공부를 해야할거 같다.
+    * schema 먼저 정의를 하고, resolver를 정의하고, db에서 함수를 정의하는 순서로 가면 편할듯.
+        * 설계만 잘 되어있으면 문제는 없겠다.

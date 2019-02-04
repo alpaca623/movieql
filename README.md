@@ -1,6 +1,11 @@
 # movieql
 Movie API with graphql and NomadCoder lesson
 
+## 결론(2019.2.4)
+- graphql을 가지고 REST API로 되어 있는 영화 데이터를 graphql로 감쌌다. graphql의 장점을 명확히 볼 수 있었던 강의였으며, 전반적인 graphql 사용법을 이해할 수 있었고, 쓸 수 있게 되었다. 사이드프로젝트를 진행하는데 있어 많은 도움이 될 것 같다.
+- 문제는 여기서는 기존의 존재하던 API를 이용해서 데이터를 호출, 응답을 해주었는데, DB에 연결하여 쓰는건 아직 모르는 상태이다. 좀 더 공부를 해봐야겠다.
+- 이후에는 graphql을 이용한 react.js 페이지를 만드는 강의를 볼 것이다.
+
 # 4 Creating the first Query and Resolver
 * 이번 강의의 핵심은 schema, resolver를 이해하는 것이다.
     * graphql 서버에서는 어떤 타입의 데이터를 요청할지 알아야 하는데(요청할 시), 이때 이를 알려주는 역할을 하는 것이 schema다.
@@ -57,3 +62,7 @@ Movie API with graphql and NomadCoder lesson
 * [참고]여기서 DB에서 리턴시키는 함수의 첫번째 인자는 event 객체이고, 두번째 인자는 argument인데 객체로 받는다.
 * 의외로 어렵진 않다.. 역시 배우는게 최고 이득이다.
 
+# 13 Overview to the final API
+* 결론. 마지막으로는 node_fetch 라이브러리를 axios 라이브러리로 변경하였다.
+    * 아직 node_fetch와 axios의 차이가 뭔지 깊게는 모르지만, then을 두번 쓰는 node_fetch보다 axios가 훨 낫다..고 생각이 된다.
+* graphql의 장점중 하나가. 선택적인 데이터 호출이 가능하다는 것. 불필요한 데이터가 나오지 않는다. 곧 버릴 데이터를 생각하지 않아도 된다는 것이다.
